@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: #0B1320;
+        }
+
+        nav ul {
+            list-style: none;
+            float: left;
+            display: flex;
+            padding: auto;
+            flex-direction: row;
+        }
+        nav div#navv{
+            border-bottom: 1px solid #5271FF;
+        }
+        nav ul#navul{
+            
+        }
+        nav div#navbarNav {
+            
+        }
+        
+
+        nav div#navbarNav a#navlink {
+            text-decoration: none;
+            color: #ede7e7;
+            font-family: 'Raleway', sans-serif;
+            text-shadow:  0 0 7px #5E17EB,
+             0 0 10px #5E17EB,
+            0 0 21px #5E17EB,
+            0 0 42px #5E17EB,
+            0 0 82px #5E17EB,
+            0 0 92px #5E17EB,
+            0 0 102px #5E17EB,
+            0 0 151px #5E17EB;
+            animation: al 0.8s ease-in-out;
+            font-size: 17px;
+            transition: all 0.8s ease-in-out;
+        }
+
+        @keyframes al {
+            0%{
+                opacity: 10%;
+            }
+            20%{
+                opacity: 75%;
+                color: #000000;
+            }
+            40%{
+                opacity: 10%;
+
+            }
+            60%{
+                opacity: 75%;
+                color: #000000;
+            }
+            80%{
+                opacity: 10%;
+            }
+            100%{
+                opacity: 100%;
+            }
+        }
+
+        nav div#navbarNav a#navlink:hover{
+            color: white;
+            transition: all 1s ease-in-out;
+            
+        }
+
+        nav span#ic:hover{
+            transition: all 0.9s ease-in-out;
+            box-shadow: 0 0 7px #5E17EB,
+             0 0 10px #5E17EB,
+            0 0 21px #5E17EB,
+            0 0 2px #5E17EB,
+            0 0 32px #5E17EB,
+            0 0 9px #5E17EB,
+            0 0 12px #5E17EB,
+            0 0 11px #5E17EB;
+        }
+        
+
+        @media (min-width:1024px) and (max-width:1440px) {
+          div.container-fluid div.row div.one .anilo1 {
+            filter: drop-shadow(0px 0px 10px black);
+            transition: all 0.6s ease-out;
+            width: 500px;
+            height: 500px;
+            
+        }
+        }
+
+
+        div.container-fluid{
+
+        }
+
+        /*   phone  */
+        /*   phone  */
+        /*   phone  */
+        @media screen and (max-width:500px) {
+          div.container-fluid div.col.one .anilo1 {
+            filter: drop-shadow(0px 0px 10px black);
+            transition: all 0.6s ease-out;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            
+        }
+        div.container-fluid div.col.two h1.hea{
+          font-family: 'Raleway', sans-serif;
+          color: white;
+          text-align: center;
+          text-shadow: 0 0 7px #5271FF,
+          0 0 10px #5271FF,
+          0 0 82px #5271FF;
+          font-size: 16px;
+        }
+        }
+        /*   tablet  */
+        /*   tablet  */
+        /*   tablet  */
+        
+        @media  (min-width:576px)  {
+          div.container-fluid div.col.one .anilo1 {
+            filter: drop-shadow(0px 0px 10px black);
+            transition: all 0.6s ease-out;
+            width: 280px;
+            height: 280px;
+            margin: auto;
+        }
+        div.container-fluid div.col.two h1.hea{
+          font-family: 'Raleway', sans-serif;
+          color: white;
+          text-align: center;
+          text-shadow: 0 0 7px #5271FF,
+          0 0 10px #5271FF,
+          0 0 82px #5271FF;
+          margin: -22px -46px 4px 4px;
+          font-size: 22px;
+        }
+        
+        }
+
+        @media  (min-width:768px)  {
+          div.container-fluid div.col.one .anilo1 {
+            filter: drop-shadow(0px 0px 10px black);
+            transition: all 0.6s ease-out;
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            
+        }
+        div.container-fluid div.col.two h1.hea{
+          font-family: 'Raleway', sans-serif;
+          color: white;
+          text-align: center;
+          text-shadow: 0 0 7px #5271FF,
+          0 0 10px #5271FF,
+          0 0 82px #5271FF;
+          font-size: 28px;
+
+        }
+        
+        }
+
+        @media  (min-width:992px)  {
+          div.container-fluid div.col.one .anilo1 {
+            filter: drop-shadow(0px 0px 10px black);
+            transition: all 0.6s ease-out;
+            width: 650px;
+            height: 650px;
+            margin: auto;
+            
+        }
+        div.container-fluid div.col.two h1.hea{
+          font-family: 'Raleway', sans-serif;
+          color: white;
+          text-align: center;
+          text-shadow: 0 0 7px #5271FF,
+          0 0 10px #5271FF,
+          0 0 82px #5271FF;
+          font-size: 40px;
+
+        }
+        
+        }
+
+        @media  (min-width:1200px)  {
+          div.container-fluid div.col.one .anilo1 {
+            filter: drop-shadow(0px 0px 10px black);
+            transition: all 0.6s ease-out;
+            width: 700px;
+            height: 700px;
+            margin: auto;
+            
+        }
+        div.container-fluid div.col.two h1.hea{
+          font-family: 'Raleway', sans-serif;
+          color: white;
+          text-align: center;
+          text-shadow: 0 0 7px #5271FF,
+          0 0 10px #5271FF,
+          0 0 82px #5271FF;
+          font-size: 50px;
+
+        }
+        
+        }
+
+        @media screen and (min-width:1800px)  {
+          div.container-fluid div.col.one .anilo1 {
+            filter: drop-shadow(0px 0px 10px black);
+            transition: all 0.6s ease-out;
+            width: 1000px;
+            height: 1000px;
+            margin: auto;
+            
+        }
+        div.container-fluid div.col.two h1.hea{
+          font-family: 'Raleway', sans-serif;
+          color: white;
+          text-align: center;
+          text-shadow: 0 0 7px #5271FF,
+          0 0 10px #5271FF,
+          0 0 82px #5271FF;
+          font-size: 80px;
+        }
+        
+        
+        }
+    div.container-fluid div.col.one .anilo1:hover{
+        filter: drop-shadow(2px 28px 20px black);
+    }
+
+        /* remove margin in tablet and android */
+
+       
+        div.container-fluid div.col.two {
+          margin: auto;
+          margin-right: 50px;
+        }
+
+
+        div.container div.row div.ci1 {
+          width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 70px;
+    border-radius: 50%;
+        }
+        div.container div.row div.ci2 {
+          width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50%;
+        }
+        div.container div.row div.ci3 {
+          width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 70px;
+        }
+        div.container div.row div.ci4 {
+          width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50%;
+
+        }
+
+        div.container.sec3 {
+          margin-top: 120px;
+          margin-bottom: 120px;
+        }
+        div.container div.row div.col1 {
+          width: 61%;
+          height: 406px;
+          background-color: #0d1e3259;
+          box-shadow: 0px 9px 23px -8px #5e17eb;
+          margin-top: 99px;
+          margin: auto;
+          transition: all 1.1s ease-out;
+        }
+        div.container div.row div.col1:hover{
+          background-color: #0d1e32a9;
+          box-shadow: 0px 9px 23px -8px #5e17eb;
+        }
+        div.container div.row div.col2 {
+          width: 61%;
+          height: 406px;
+          margin: auto;
+          background-color: #0d1e3259;
+          box-shadow: 0px 9px 23px -8px #5e17eb;
+          margin-top: 99px;
+        }
+        div.container div.row div.col3 {
+          width: 61%;
+          height: 406px;
+          background-color: #0d1e3259;
+          box-shadow: 0px 9px 23px -8px #5e17eb;
+          margin: auto;
+          margin-top: 99px;
+        }
+
+        div.container div.row {
+
+        }
+
+        div.container div.row div.col{
+          margin: auto;
+        }
+        
+        div.row.sec4 {
+          width: 90%;
+          margin: auto;
+        }
+        div.row.sec4 .col{
+          margin-top: 100px;
+          overflow: hidden;
+          margin-bottom: 150px;
+        }
+        div.row.sec4 .card {
+          overflow: hidden;
+        }
+        div.row.sec4 img.card-img-top{
+          transition: transform 2s, filter 3s ease-out;
+          transform-origin: center center;
+          width: 100%;
+          filter: blur(2px);
+          
+        }
+        div.row.sec4 img.card-img-top:hover{
+          filter: brightness(1);
+          filter: blur(0);
+          transform: scale(1.1);
+        }
+
+        form.container{
+          height: 500px;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+    width: 80%;
+    font-size: larger;
+    background-color: #0c0c0c;
+    margin: auto;
+
+        }
+        form.container h2{
+          
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: whitesmoke;
+        }
+        
+        form .form{
+          height: 32%;
+          border-radius: 10px;
+          outline: none;
+          border: none;
+          color: white;
+          transition: all 0.4s ease-in;
+          background-color: #081320;
+        }
+        form .form:hover{
+          background-color: #0c0c0c;
+          box-shadow: 0px 3px 8px 2px #490fbd80;
+        }
+        form .form::placeholder{
+          color: whitesmoke;
+        }
+        form button.btn{
+          width: 30%;
+    background-color: #081320;
+    color: whitesmoke;
+    outline: none;
+        }
+        form button.btn:hover{
+          color: whitesmoke;
+          border:3px #5E17EB solid;
+        }
+
+        footer{
+          margin-top: 200px;
+          background-color: #0e0d0d;
+          text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!--Nav bar -->
+   
+      <nav class="navbar navbar-expand-lg bg-body-#0B1320">
+        <div class="container-fluid" id="navv">
+            <div class="naic">
+            <a class="navbar-brand" href="#">
+                <img src="C:\Users\Administrator\Downloads\thinkwithailogo.gif" alt="Logo" width="110" height="35" class="d-inline-block align-text-top">
+            </div>
+              </a>
+          <button class="navbar-toggler" type="button" id="navbic" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" id="ic"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav justify-content-end" id="navul">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" id="navlink" href="#">AI News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navlink">Future of AI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services" id="navlink">Services</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link disabled" id="navlink">About</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link disabled" id="navlink">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Section 1 of 1st page home page-->
+      <div class="container-fluid " >
+        <div class="row ">
+          <div class="col one">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_4d9gsjsx.json" class="anilo1" mode="bounce" background="transparent"  speed="1"   loop autoplay></lottie-player>
+          </div>
+          <div class="col two">
+            <h1 class="hea"><q>Accelerating Business Success with AI & Web Development Services</q></h1>
+          </div>
+          
+        </div>
+      </div>
+
+      <!--Now 2nd Section of circles is start below-->
+      <div class="container text-center"> 
+        <div class="row">
+          <div class="col">
+            <div class="ci1">
+
+            </div>
+            <div class="ci2">
+
+            </div>
+          </div>
+          <div class="col">
+            <div class="ci3">
+
+            </div>
+            <div class="ci4">
+
+            </div>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="col">
+
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Now 3rd section ..what why how...-->
+
+      <div class="container text-center sec3">
+        <div class="row">
+          <div class="col1" onmouseenter="bg()">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col2">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col3">
+
+          </div>
+        </div>
+      </div>
+
+      <!--Now 4th Section services...-->
+
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 sec4"  id="services">
+        <div class="col">
+          <div class="card h-100">
+            <img src="C:\Users\Administrator\Downloads\pexels-pavel-danilyuk-8438918.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="C:\Users\Administrator\Downloads\pexels-pavel-danilyuk-8438918.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="C:\Users\Administrator\Downloads\pexels-pavel-danilyuk-8438918.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Section of facts about AI-->
+      
+      <!--Section 5th of Form Submission-->
+    <form action="" name="form" onsubmit="return form_va()" method="post" class="container row text-center form">
+      <h2 class="display-2">Any Query.. We are here.. for you</h2>
+      <div class="row mb-1">
+        
+        <input type="text" class="form" name="uname" placeholder="Your Name">
+      </div>
+      <div class="row mb-1">
+       
+        <input type="email" class="form" name="mail"  placeholder="yourmailid@gmail.com">
+      </div>
+      <div class="row mb-1">
+        
+        <input type="number" class="form" name="pnumber" placeholder="+1-PHNNUMBER">
+      </div>
+      
+      <div class="row mb-1">
+        
+        <textarea class="form"  rows="5" name="query" placeholder="Write Your Query...."></textarea>
+      </div>
+     
+      <button type="submit" class="btn ">Submit</button>
+      
+    </form>
+
+    <footer>
+      <div class="d-flex flex-row mb-3">
+        <div class="col justify-content-start">
+        <div class="p-2">Contact us</div>
+        <div class="p-2">About Us</div>
+        <div class="p-2">FAQs</div>
+      </div>
+      <div class="col justify-content-start">
+        <div class="p-2">Contact us</div>
+        <div class="p-2">About Us</div>
+        <div class="p-2">FAQs</div>
+      </div>
+      </div>
+    </footer>
+      <script>
+        function form_va(){
+         var email = document.forms["form"]["mail"].value
+         var name = document.forms["form"]["uname"].value
+         var phun = document.forms["form"]["pnumber"].value
+         var query = document.forms["form"]["query"].value
+         
+         if (name==""){
+          alert("Enter Your Name..")
+          return false
+         }
+         if (email==""){
+          alert("Enter email..")
+          return false
+         }
+         if (phun==""){
+          alert("Enter Your Phone Number..")
+          return false
+         } 
+         
+         if (query==""){
+          alert("Enter Your Query..")
+          return false
+         }
+         if (phun.length<10){
+          alert("Enter your Phone Number..")
+          return false
+         }
+         
+        }
+      </script>
+  </body>
+</html>
