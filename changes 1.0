@@ -1,0 +1,50 @@
+650 section 1 rotatie 0.7 deg
+
+
+think wtih ai navbar logo
+0%{
+        opacity: 10%;
+      }
+      20%{
+        opacity: 50%;
+      }
+      30%{
+         opacity:10%;
+      }
+      40%{
+        opacity: 30%;
+      }
+      50%{
+        opacity: 100%;
+      }
+      90%{
+        opacity: 50%;
+      }
+      100%{
+        opacity: 10%;
+      }
+      
+      
+      header remove introboxin, and 2 more..
+      now code in 
+        header div.intro{
+          background: transparent;
+          min-width: 100%;
+          flex-direction: row;
+          justify-content: center;
+          height: 100%;
+          display: flex;
+        }
+        
+        header div.intro div.compu {
+          display: flex;
+          flex-direction: column;
+          min-width: 100%;
+          height: auto;
+        }
+        header div.intro div.compu video {
+          max-width: 100%;
+    height: auto;
+        }
+        
+        
