@@ -1,0 +1,7 @@
+Sitemap: http://thinkwithai.com/sitemap
+
+User-agent: *
+Allow: /
+
+User-agent: *
+Allow: /
