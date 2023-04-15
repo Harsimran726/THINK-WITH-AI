@@ -1,0 +1,24 @@
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "LocalBusiness",
+  "name": "Think with ai",
+  "url": "https://thinkwithai.com/",
+  "sameAs": [
+    "http://thinkwithai.com/contact",
+    "http://thinkwithai.com/s",
+    "http://thinkwithai.com/future%20of%20ai",
+    "http://thinkwithai.com/Ai%20News",
+    "http://thinkwithai.com/Ai%20Chat%20Bot"
+  ],
+  "image": "http://thinkwithai.com/static/C%3A/Users/Administrator/Desktop/tw/twaip/static/logo.png",
+  "description": "Think With Ai offers cutting-edge AI Development services to help businesses automate tasks, enhance user experience, and make Data-driven decisions with the help of Artificial Intelligence. We deal in Website Development, and Ai Chatbots.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Delhi",
+    "addressRegion": "New delhi",
+    "addressCountry": "india"
+  },
+  "openingHours": "Mo, Tu, We, Th, Fr, Sa, Su -"
+}
+ </script>
